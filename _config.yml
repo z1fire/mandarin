@@ -1,0 +1,18 @@
+title: "Zack's Chinese Stories"
+description: "A small library of Chinese stories with hover pinyin/definitions."
+url: "https://YOUR_USERNAME.github.io"
+baseurl: ""   # change if repo is not USERNAME.github.io
+
+markdown: kramdown
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: stories
+    values:
+      layout: story
