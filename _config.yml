@@ -1,7 +1,7 @@
 title: "Zack's Chinese Stories"
 description: "A small library of Chinese stories with hover pinyin/definitions."
 url: "https://z1fire.github.io"
-baseurl: ""   # change if repo is not USERNAME.github.io
+baseurl: "/mandarin"   # change if repo is not USERNAME.github.io
 
 markdown: kramdown
 
@@ -17,3 +17,4 @@ defaults:
     values:
 
       layout: story
+
